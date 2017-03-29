@@ -1,0 +1,40 @@
+2017-02-21 21:26:15,055 [Thread-2:5784] [blog.views:13] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-02-21 21:28:14,561 [Thread-8:3056] [blog.views:13] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-02-21 21:28:31,592 [Thread-14:6396] [blog.views:13] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-02-21 21:32:53,331 [Thread-20:5216] [blog.views:13] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-02-21 21:35:42,374 [Thread-25:6232] [blog.views:13] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-02-21 23:09:14,658 [Thread-2:2976] [blog.views:13] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2017-02-23 19:53:20,526 [Thread-2:5684] [blog.views:31] [views:index] [ERROR]- Raw query must include the primary key
+2017-02-23 22:03:51,915 [Thread-17:2680] [blog.views:55] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 22:05:41,440 [Thread-33:5308] [blog.views:55] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 22:05:48,716 [Thread-35:4408] [blog.views:55] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 22:07:04,918 [Thread-41:5748] [blog.views:55] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 22:07:07,302 [Thread-51:4608] [blog.views:55] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 22:07:10,878 [Thread-54:6064] [blog.views:55] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 22:11:14,216 [Thread-2:4888] [blog.views:57] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 22:41:58,986 [Thread-19:4392] [blog.views:47] [views:archive] [ERROR]- (1271, u"Illegal mix of collations for operation 'like'")
+2017-02-23 22:41:59,184 [Thread-20:3640] [blog.views:47] [views:archive] [ERROR]- (1271, u"Illegal mix of collations for operation 'like'")
+2017-02-23 22:42:00,296 [Thread-22:3380] [blog.views:47] [views:archive] [ERROR]- (1271, u"Illegal mix of collations for operation 'like'")
+2017-02-23 22:42:00,313 [Thread-21:4988] [blog.views:47] [views:archive] [ERROR]- (1271, u"Illegal mix of collations for operation 'like'")
+2017-02-23 22:51:29,937 [Thread-16:2896] [blog.views:47] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 23:16:53,891 [Thread-22:4824] [blog.views:47] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 23:21:39,811 [Thread-37:3168] [blog.views:47] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-23 23:24:34,505 [Thread-52:5480] [blog.views:47] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2017-02-24 21:26:09,545 [Thread-12:6036] [blog.views:117] [views:article] [ERROR]- (1054, u"Unknown column 'blog_user.url' in 'field list'")
+2017-02-24 21:26:52,533 [Thread-14:2848] [blog.views:117] [views:article] [ERROR]- (1054, u"Unknown column 'blog_user.url' in 'field list'")
+2017-02-24 21:28:16,408 [Thread-2:3768] [blog.views:117] [views:article] [ERROR]- (1054, u"Unknown column 'blog_user.url' in 'field list'")
+2017-02-24 21:28:44,598 [Thread-2:5580] [blog.views:117] [views:article] [ERROR]- (1054, u"Unknown column 'blog_user.url' in 'field list'")
+2017-02-24 21:58:05,437 [Thread-107:956] [blog.views:170] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-02-24 21:58:15,395 [Thread-108:2900] [blog.views:170] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-02-24 21:58:21,733 [Thread-109:5548] [blog.views:170] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-02-24 21:58:32,651 [Thread-111:5924] [blog.views:170] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-02-24 22:03:41,707 [Thread-166:6080] [blog.views:170] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-02-24 22:04:06,604 [Thread-168:4472] [blog.views:170] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-02-24 22:06:33,678 [Thread-176:2400] [blog.views:170] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-02-24 22:06:38,161 [Thread-177:4216] [blog.views:170] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-02-24 22:07:40,367 [Thread-5:3232] [blog.views:171] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-03-25 20:44:10,351 [Thread-2:4068] [blog.views:207] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-03-25 21:13:37,302 [Thread-2:5360] [blog.views:150] [views:article] [ERROR]- 'User' object has no attribute 'url'
+2017-03-25 21:14:48,480 [Thread-24:5376] [blog.views:150] [views:article] [ERROR]- 'User' object has no attribute 'url'
+2017-03-25 22:29:58,273 [Thread-2:4696] [blog.views:206] [views:do_reg] [ERROR]- global name 'make_password' is not defined
+2017-03-25 22:30:23,944 [Thread-8:4424] [blog.views:206] [views:do_reg] [ERROR]- global name 'make_password' is not defined
