@@ -270,3 +270,30 @@ input#submit {
 .reply{
 	padding-left:30px;
 }
+
+.logo a{
+	float: right;
+	padding-right:20px;
+	font-size: 20px;
+	margin-bottom: 2px;
+	
+}
+.btn a{
+	float: right;
+	padding-right:20px;
+	font-size: 20px;
+	color:#ff6f3d;
+	
+}
+
+.logo .personal .user .ph_h{
+	float: right;
+	padding-right:20px;
+	font-size: 20px;
+	color:#ff6f3d;
+}
+
+.logo .personal .user .ph_h img{
+	width: 10px;
+	height: 10px;
+}

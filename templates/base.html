@@ -20,8 +20,23 @@
 <header>
   <div class="logo">
       <h1>忘仙的个人博客</h1>
-      <p>你的內心有千千萬萬個人，我連一個小角落都沒有。
-</p>
+      <p>你的內心有千千萬萬個人，我連一個小角落都沒有。</p>
+      {% if request.user.is_authenticated %}
+      <div class="personal">
+        <div class="userdetail">
+          <div class="btn">
+                <a class="fr" href="{% url 'logout' %}">退出</a>
+                <a class="personcenter fl" href="{% url 'about_me' %}">个人中心</a>
+          </div>
+        </div>
+        <dl class="user">
+            <a class="ph_h" href="javascript:void(0)"><i class="icon_ph"></i>用户名：{{request.user.username}}</a>
+        </dl>
+      </div>
+      {% else %}
+      <a style="color:#ff6f3d" class="fr registerbtn" href="register.html">注册</a>
+      <a style="color:#ff6f3d" class="fr loginbtn" href="/login">登录</a>
+      {% endif %}
   </div>
   <nav id="topnav" class="f_r">
     <ul>
@@ -32,7 +47,7 @@
       <a href="">文章</a>
       <a href="">生活</a> 
       <a href="{% url 'get_lr' %}">照片</a> 
-      <a href="">{{request.user.username}}</a>
+      <a href=""></a>
       {# {% endfor %} #}
     </ul>
     <script src="js/nav.js"></script>
